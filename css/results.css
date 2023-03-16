@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+}
+
+.searchSection {
+  max-width: 300px;
+  width: 100%;
+  padding: 10px;
+  background: #d9e8e8;
+  min-height: 100vh;
+}
+
+#searchForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#searchForm :where(input, select, button) {
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+#searchForm button {
+  background-color: #1bbc9b;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  border: none;
+}
+
+.go-back {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  background: rgb(238, 56, 32);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.resultsSection {
+  padding: 10px;
+  width: 100%;
+  color: #d9e8e8;
+  background: #2e3e50;
+}
+
+.result-cards {
+  margin-top: 20px;
+}
+
+.card {
+  background: #d9e8e8;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.card h3 {
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.card small {
+  background: #1bbc9b;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.card a {
+  padding: 8px 12px;
+  display: inline-block;
+  margin-top: 10px;
+  background: #2e3e50;
+  color: #d9e8e8;
+  border-radius: 5px;
+  font-size: 15px;
+  text-decoration: none;
+}
