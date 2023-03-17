@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #2e3e50;
+  background: linear-gradient(#043e43, #079094);
 }
 
 .search-section {
@@ -35,7 +35,7 @@
 }
 
 #searchForm button {
-  background-color: #1bbc9b;
+  background: linear-gradient(#663399, #b476f1);
   color: white;
   cursor: pointer;
   font-size: 16px;

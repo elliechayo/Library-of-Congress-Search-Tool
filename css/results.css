@@ -24,7 +24,7 @@
 }
 
 #searchForm button {
-  background-color: #1bbc9b;
+  background: linear-gradient(#663399, #b476f1);
   color: white;
   cursor: pointer;
   font-size: 16px;
@@ -36,7 +36,7 @@
   padding: 10px;
   display: block;
   text-decoration: none;
-  background: rgb(238, 56, 32);
+  background: linear-gradient(#043e43, #079094);
   color: white;
   text-align: center;
   border-radius: 5px;
@@ -46,7 +46,7 @@
   padding: 10px;
   width: 100%;
   color: #d9e8e8;
-  background: #2e3e50;
+  background: linear-gradient(#043e43, #079094);
 }
 
 .result-cards {
@@ -72,7 +72,7 @@
 }
 
 .card small {
-  background: #1bbc9b;
+  background: #9c0404;
   color: white;
   padding: 5px;
   display: inline-block;
@@ -83,7 +83,7 @@
   padding: 8px 12px;
   display: inline-block;
   margin-top: 10px;
-  background: #2e3e50;
+  background: #031b36;
   color: #d9e8e8;
   border-radius: 5px;
   font-size: 15px;
